@@ -1,11 +1,11 @@
 .App {
   text-align: center;
   font-family: 'Calistoga', cursive;
- 
 }
 
 /* HEADER */
 .header {
+  
 }
 
 .nav {
@@ -18,7 +18,7 @@
 }
 
 .title {
-  color: white;
+  color: #f5f0df;
   font-size: 100px;
   margin: 0 auto;
 }
@@ -28,14 +28,15 @@
 }
 
 .nav-links-left {
-  color: white;
+  color: #f5f0df;
   font-size: 30px;
   justify-content: flex-start;
   padding: 0 0 0 100px;
   /* margin: 0 0 0 10px; */
 }
+
 .nav-links-right {
-  color: white;
+  color: #f5f0df;
   font-size: 30px;
   justify-content: flex-end;
   padding: 0 100px 0 0;
@@ -43,8 +44,30 @@
 }
 
 main {
-  background-color: rgb(233, 230, 223);
+  background-color: #f5f0df;
   padding: 55px 0 15px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+
+}
+
+.section-header {
+  font-size: 30px;
+}
+
+.section-content {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.project-links {
+  font-size: 30px;
 }
 
 a:link {
@@ -65,14 +88,36 @@ a:visited {
 }
 
 .thumbnail:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 12px 16px 0 rgba(109, 84, 84, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  border: solid 3px black;
 }
 
 .footer {
-  background-color: #88ac98;
+  /* background-color: #88ac98; */
+  background: url(./Images/agave.jpg) no-repeat center;
+  background-size: cover;
+  /* height: 100px; */
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+.logo .logo-linkedin .logo-round .logo-email{
+  font-size: 50px;
+}
+
+.logo-linkedin:hover {
+  border-radius: 8px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.logo-git:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  border-radius: 18px;
+}
+.logo-email:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  border-radius: 8px;
 }
 
 @media screen and (max-width: 415px) {
