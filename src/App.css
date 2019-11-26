@@ -45,7 +45,7 @@
 
 main {
   background-color: #f5f0df;
-  padding: 55px 0 15px 0;
+  padding: 10px 0 15px 0;
   display: flex;
   flex-direction: column;
 }
@@ -57,7 +57,7 @@ section {
 
 }
 
-.section-header {
+.section-title {
   font-size: 30px;
 }
 
