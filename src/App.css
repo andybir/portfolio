@@ -4,19 +4,20 @@
 }
 
 .header {
-  background-color: coral;
 }
 
 main {
-  background-color: darkturquoise;
+  background-color: rgb(233, 230, 223);
+  padding: 55px 0 15px 0;
 }
 
 .thumbnail {
-  width: 55%;
+  width: 35%;
+  height: 35%;
 }
 
 .footer {
-  background-color: coral;
+  background-color: rgb(249, 151, 31);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -24,4 +25,16 @@ main {
 
 .App-link {
   color: #09d3ac;
+}
+
+@media screen and (max-width: 415px) {
+  .thumbnail {
+    width: 55%;
+    height: 25vh;
+  }
+
+  main {
+    padding: 40px 0 5px 0;
+    
+  }
 }

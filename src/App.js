@@ -5,12 +5,12 @@ import parenthelper from './Images/CCC5E6F9-A088-4C76-A2BB-5E078130BC7E.jpeg'
 import museumquiz from './Images/83836CB2-1AC3-4795-9335-612D2BB89D36_1_105_c.jpeg'
 import sethap from './Images/EE5E7FF8-33DE-4E41-B950-D63CDF317B84_1_105_c.jpeg'
 import { createMuiTheme, makeStyles, ThemeProvider } from '@material-ui/core/styles';
-import purple from '@material-ui/core/colors/purple';
+import orange from '@material-ui/core/colors/orange';
 import './App.css';
 
 const theme = createMuiTheme({
   palette: {
-    primary: purple,
+    primary: orange,
     secondary: {
       main: '#f44336',
     },
