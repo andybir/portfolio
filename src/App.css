@@ -4,7 +4,42 @@
  
 }
 
+/* HEADER */
 .header {
+}
+
+.nav {
+  background: url(./Images/agave.jpg) no-repeat center;
+  background-size: cover;
+  height: 500px;
+  /* position: relative; */
+  display: flex;
+  flex-flow: row;
+}
+
+.title {
+  color: white;
+  font-size: 100px;
+  margin: 0 auto;
+}
+
+.menu {
+  
+}
+
+.nav-links-left {
+  color: white;
+  font-size: 30px;
+  justify-content: flex-start;
+  padding: 0 0 0 100px;
+  /* margin: 0 0 0 10px; */
+}
+.nav-links-right {
+  color: white;
+  font-size: 30px;
+  justify-content: flex-end;
+  padding: 0 100px 0 0;
+  /* margin: 0 10px 0 0; */
 }
 
 main {
@@ -34,7 +69,7 @@ a:visited {
 }
 
 .footer {
-  background-color: #bbdefb;
+  background-color: #88ac98;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
