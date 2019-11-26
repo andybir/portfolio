@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  
+  font-family: 'Calistoga', cursive;
+ 
 }
 
 .header {
@@ -37,10 +38,6 @@ a:visited {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-}
-
-.App-link {
-  color: #09d3ac;
 }
 
 @media screen and (max-width: 415px) {
