@@ -31,7 +31,9 @@ function Header() {
 
     return (
         <div className={classes.root}>
-            <AppBar position="fixed">
+            <AppBar position="fixed"
+                    // color="red"
+            >
                 <Toolbar>
                     <IconButton 
                         edge="start" 

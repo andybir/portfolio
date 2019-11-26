@@ -33,7 +33,7 @@ a:visited {
 }
 
 .footer {
-  background-color: rgb(249, 151, 31);
+  background-color: #bbdefb;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
