@@ -25,11 +25,11 @@ function App() {
       </ThemeProvider>
       <main>
         <h2><a href='https://shrouded-castle-17830.herokuapp.com/' rel="noopener noreferrer" target='_blank'>Parent Helper</a></h2>
-        <img className='thumbnail' src={parenthelper} alt='' />
+        <a href='https://shrouded-castle-17830.herokuapp.com/' rel="noopener noreferrer" target='_blank'><img className='thumbnail' src={parenthelper} alt='' /></a>
         <h2><a href='http://museum-quiz.surge.sh/' rel="noopener noreferrer" target='_blank'>Museum Quiz</a></h2>
-        <img className='thumbnail' src={museumquiz} alt='' />
+        <a href='http://museum-quiz.surge.sh/' rel="noopener noreferrer" target='_blank'><img className='thumbnail' src={museumquiz} alt='' /></a>
         <h2><a href='http://sethap.surge.sh/' rel="noopener noreferrer" target='_blank'>SetHap</a></h2>
-        <img className='thumbnail' src={sethap} alt='' />
+        <a href='http://sethap.surge.sh/' rel="noopener noreferrer" target='_blank'><img className='thumbnail' src={sethap} alt='' /></a>
       </main>
       <Footer />
     </div>
