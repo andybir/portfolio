@@ -9,9 +9,9 @@
 }
 
 .headshot {
-  width: 35%;
+  width: 400px;
   border: 3px solid rgb(249, 151, 31);
-  border-radius: 500px;
+  border-radius: 30%;
 }
 
 .nav {
@@ -99,9 +99,36 @@ a:visited {
   border: solid 3px black;
 }
 
+/* .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+} */
+
+/* .thumbnail:hover .overlay {
+  opacity: 1;
+} */
+
+/* .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+} */
+
 .footer {
   /* background-color: #88ac98; */
-  background: url(./Images/agave.jpg) no-repeat center;
+  background: url(./Images/subway-tile.jpeg) no-repeat center;
   background-size: cover;
   /* height: 100px; */
   display: flex;
@@ -129,7 +156,7 @@ a:visited {
 
 @media screen and (max-width: 415px) {
   .thumbnail {
-    width: 55%;
+    width: 75%;
     height: 25vh;
   }
 
@@ -139,7 +166,7 @@ a:visited {
   }
 
   .headshot {
-    width: 300px;
+    width: 250px;
   }
 
   .section-content {
