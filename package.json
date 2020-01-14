@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/styled": "^10.0.27",
     "@material-ui/core": "^4.6.1",
     "@material-ui/icons": "^4.5.1",
+    "emotion": "^10.0.27",
     "eslint": "^6.6.0",
     "eslint-plugin-react": "^7.16.0",
     "react": "^16.12.0",
@@ -32,5 +34,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-plugin-emotion": "^10.0.27",
+    "babel-plugin-macros": "^2.8.0"
   }
 }

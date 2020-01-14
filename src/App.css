@@ -8,13 +8,20 @@
   
 }
 
+.headshot {
+  width: 35%;
+  border: 3px solid rgb(249, 151, 31);
+  border-radius: 500px;
+}
+
 .nav {
-  background: url(./Images/agave.jpg) no-repeat center;
+  background: url(./Images/subway-tile.jpeg) no-repeat center;
   background-size: cover;
   height: 500px;
   /* position: relative; */
   display: flex;
-  flex-flow: row;
+  flex-flow: column;
+  align-items: center;
 }
 
 .title {
@@ -129,5 +136,9 @@ a:visited {
   main {
     padding: 40px 0 5px 0;
     
+  }
+
+  .headshot {
+    width: 300px;
   }
 }
