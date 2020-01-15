@@ -154,6 +154,11 @@ a:visited {
   border-radius: 8px;
 }
 
+.icon {
+  font-size: 50px;
+  padding: 5px;
+}
+
 @media screen and (max-width: 415px) {
   .thumbnail {
     width: 75%;
@@ -172,5 +177,10 @@ a:visited {
   .section-content {
     width: 90%;
     margin: 0 auto;
+  }
+
+  .icon {
+    font-size: 20px;
+    padding: 5px;
   }
 }

@@ -6,6 +6,7 @@ import Nav from './Components/Nav'
 import parenthelper from './Images/parent-helper-home.png'
 import museumquiz from './Images/83836CB2-1AC3-4795-9335-612D2BB89D36_1_105_c.jpeg'
 import sethap from './Images/EE5E7FF8-33DE-4E41-B950-D63CDF317B84_1_105_c.jpeg'
+import ReactTooltip from 'react-tooltip'
 import './App.css';
 
 // const Background = styled.div({
@@ -22,6 +23,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <ReactTooltip />
       <Nav />
       <main>
         <section>
@@ -45,7 +47,19 @@ function App() {
         <a href='http://sethap.surge.sh/' rel="noopener noreferrer" target='_blank'><img className='thumbnail' src={sethap} alt='' /></a>
         <section>
           <h2 className='section-title'>Skills</h2>
-          <p className='section-content'>React.js, JavaScript, Express, Rub on Rails, Node.js, CSS, HTML, SQL, PostgreSQL</p>
+          <div className='section-content'>
+            <i class="devicon-css3-plain colored icon" data-tip='CSS'></i>
+            <i class="devicon-express-original colored icon" data-tip='Express.js'></i>
+            <i class="devicon-git-plain colored icon" data-tip='git'></i>
+            <i class="devicon-javascript-plain colored icon" data-tip='JavaScript'></i>
+            <i class="devicon-nodejs-plain colored icon" data-tip='Node.js'></i>
+            <i class="devicon-postgresql-plain colored icon" data-tip='PostgresQL'></i>
+            <i class="devicon-rails-plain colored icon" data-tip='Rails'></i>
+            <i class="devicon-react-original colored icon" data-tip='React.js'></i>
+            <i class="devicon-html5-plain colored icon" data-tip='HTML5'></i>
+            <i class="devicon-ruby-plain colored icon" data-tip='Ruby'></i>
+            <i class="devicon-sequelize-plain colored icon" data-tip='Sequelize'></i>
+          </div>
         </section>
       </main>
       <Footer />
