@@ -1,5 +1,4 @@
 import React from 'react'
-import headshot from '../Images/AB-headshot.JPG'
 import headshotCloseup from '../Images/AB-headshot-closeup.jpeg'
 
 function Nav () {

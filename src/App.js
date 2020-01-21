@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from './Components/Header'
 import Footer from './Components/Footer'
 import Nav from './Components/Nav'
 import parenthelper from './Images/parent-helper-home.png'
@@ -27,9 +26,8 @@ function App() {
         <a href='http://museum-quiz.surge.sh/' rel="noopener noreferrer" target='_blank'><img className='thumbnail' src={museumquiz} alt='' data-tip='A site designed to help people learn about artifacts from different cultures.  Based on the Harvard Museum API' /></a>
         <h2 className='project-links'><a href='http://sethap.surge.sh/' rel="noopener noreferrer" target='_blank'>SetHap</a></h2>
         <a href='http://sethap.surge.sh/' rel="noopener noreferrer" target='_blank'><img className='thumbnail' src={sethap} alt='' data-tip='Lookup your favorite band and to see their most recent live concert set list and also a news story about an occurence that same day.  Based on the setlist.fm and NY Times APIs.' /></a>
-        <section>
           <h2 className='section-title'>Skills</h2>
-          <div className='section-content'>
+          <div className='icon-section-content'>
             <i class="devicon-css3-plain colored icon" data-tip='CSS' data-effect='solid'></i>
             <i class="devicon-express-original colored icon" data-tip='Express.js' data-effect='solid'></i>
             <i class="devicon-git-plain colored icon" data-tip='git' data-effect='solid'></i>
@@ -42,7 +40,6 @@ function App() {
             <i class="devicon-ruby-plain colored icon" data-tip='Ruby' data-effect='solid'></i>
             <i class="devicon-sequelize-plain colored icon" data-tip='Sequelize' data-effect='solid'></i>
           </div>
-        </section>
       </main>
       <Footer />
     </div>

@@ -99,38 +99,9 @@ a:visited {
   border: solid 3px black;
 }
 
-/* .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
-} */
-
-/* .thumbnail:hover .overlay {
-  opacity: 1;
-} */
-
-/* .text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
-} */
-
 .footer {
-  /* background-color: #88ac98; */
   background: url(./Images/subway-tile.jpeg) no-repeat center;
   background-size: cover;
-  /* height: 100px; */
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -154,8 +125,14 @@ a:visited {
   border-radius: 8px;
 }
 
+.icon-section-content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
 .icon {
-  font-size: 50px;
+  font-size: 325%;
   padding: 5px;
 }
 
@@ -179,8 +156,8 @@ a:visited {
     margin: 0 auto;
   }
 
-  .icon {
-    font-size: 20px;
-    padding: 5px;
+  .icon-section-content {
+    font-size: 40%;
+    margin: 0 auto;
   }
 }
