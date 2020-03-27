@@ -86,6 +86,10 @@ a:visited {
   color: black;
 }
 
+.caption {
+  margin: -25px 0 10px 0px;
+}
+
 .thumbnail {
   width: 35%;
   height: 35%;
