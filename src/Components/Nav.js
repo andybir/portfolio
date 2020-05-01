@@ -1,5 +1,5 @@
 import React from 'react'
-import headshotCloseup from '../Images/AB-headshot-closeup.jpeg'
+import headshotCloseup from '../Images/AB-headshot-closeup-small.png'
 
 function Nav () {
     return (

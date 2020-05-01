@@ -29,18 +29,18 @@ function App() {
         <a href='http://sethap.surge.sh/' rel="noopener noreferrer" target='_blank'><img className='thumbnail' src={sethap} alt='' data-tip='Lookup your favorite band and to see their most recent live concert set list and also a news story about an occurence that same day.  Based on the setlist.fm and NY Times APIs.' /></a>
           <h2 className='section-title'>Skills</h2>
           <div className='icon-section-content'>
-            <i class="devicon-django-plain colored icon" data-tip='Django' data-effect='solid'></i>
-            <i class="devicon-python-plain colored icon" data-tip='Python' data-effect='solid'></i>
-            <i class="devicon-css3-plain colored icon" data-tip='CSS' data-effect='solid'></i>
-            <i class="devicon-express-original colored icon" data-tip='Express.js' data-effect='solid'></i>
-            <i class="devicon-git-plain colored icon" data-tip='git' data-effect='solid'></i>
-            <i class="devicon-javascript-plain colored icon" data-tip='JavaScript' data-effect='solid'></i>
-            <i class="devicon-nodejs-plain colored icon" data-tip='Node.js' data-effect='solid'></i>
-            <i class="devicon-postgresql-plain colored icon" data-tip='PostgresQL' data-effect='solid'></i>
-            <i class="devicon-rails-plain colored icon" data-tip='Rails' data-effect='solid'></i>
-            <i class="devicon-react-original colored icon" data-tip='React.js' data-effect='solid'></i>
-            <i class="devicon-html5-plain colored icon" data-tip='HTML5' data-effect='solid'></i>
-            <i class="devicon-ruby-plain colored icon" data-tip='Ruby' data-effect='solid'></i>
+            <i className="devicon-django-plain colored icon" data-tip='Django' data-effect='solid'></i>
+            <i className="devicon-css3-plain colored icon" data-tip='CSS' data-effect='solid'></i>
+            <i className="devicon-express-original colored icon" data-tip='Express.js' data-effect='solid'></i>
+            <i className="devicon-python-plain colored icon" data-tip='Python' data-effect='solid'></i>
+            <i className="devicon-git-plain colored icon" data-tip='git' data-effect='solid'></i>
+            <i className="devicon-javascript-plain colored icon" data-tip='JavaScript' data-effect='solid'></i>
+            <i className="devicon-nodejs-plain colored icon" data-tip='Node.js' data-effect='solid'></i>
+            <i className="devicon-postgresql-plain colored icon" data-tip='PostgresQL' data-effect='solid'></i>
+            <i className="devicon-rails-plain colored icon" data-tip='Rails' data-effect='solid'></i>
+            <i className="devicon-react-original colored icon" data-tip='React.js' data-effect='solid'></i>
+            <i className="devicon-html5-plain colored icon" data-tip='HTML5' data-effect='solid'></i>
+            <i className="devicon-ruby-plain colored icon" data-tip='Ruby' data-effect='solid'></i>
             {/*<i class="devicon-sequelize-plain colored icon" data-tip='Sequelize' data-effect='solid'></i>*/}
           </div>
 
